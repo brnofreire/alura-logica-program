@@ -1,0 +1,77 @@
+<meta charset=UTF-8>
+<h3>Álcool ou Gasolina?</h3>
+
+<script>
+	//como criar uma função no java, posso usar um funcao dentro de outra criando uma cao elaborada!!
+	function pulaLinha() {
+			document.write("<br>");
+	}
+
+	function mostraAlgo (parametro) {
+			document.write(parametro);
+			pulaLinha();
+
+	}
+	mostraAlgo("aqui eu mostro a funcao como funciona");
+
+	var tanque = 40;
+	var caminhoComGasolina = 480;
+	var consumoDeGasolina = caminhoComGasolina/tanque;
+
+	document.write("O consumo médio feito com um tanque de gasolina foi " + consumoDeGasolina);
+	document.write("<br>");
+
+	var caminhoComAlcool = 300;
+	var consumoDeAlcool = caminhoComAlcool/tanque;
+	pulaLinha()
+
+	document.write("O consumo médio feito com um tanque de álcool foi " + consumoDeAlcool);
+	document.write("<br>");
+
+
+function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+    }
+
+    var minhaIdade = 18;
+    var idadeIrmao = 15;
+
+    mostra("Nossa diferença de idade é " + (minhaIdade - idadeIrmao));
+    pulaLinha();
+
+     function pulaLinha() {
+            document.write("<br>");
+        }
+
+        function mostra(frase) {
+            document.write(frase);
+            pulaLinha();
+        }
+
+        var idadeMediaQuandoTemFilhos = 28;
+        var anoAtual = 2022; 
+
+        var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+        mostra(quantidadeDeGeracoes);
+
+
+
+function pulaLinha() {
+    // pulando duas linhas
+    document.write("<br><hr><br>");
+}
+
+function mostra(frase) {
+    document.write("<big>" + frase + "</big>");
+    pulaLinha();
+
+    
+}
+
+
+</script>
